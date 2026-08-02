@@ -1,0 +1,9 @@
+Result status: FULL five-seed experiment.
+Uncertainty: sample SD and two-sided 95% Student-t CI across independent seed-level runs.
+Heating_Load: largest mean positive-only damage AUC = multiplicative / Random Forest (4.541, 95% CI 3.712 to 5.369).
+Cooling_Load: largest mean positive-only damage AUC = multiplicative / Random Forest (1.049, 95% CI 0.815 to 1.284).
+Clean QNN RMSE across 5 seeds: 11.739 ± 0.869 SD (95% CI 10.660 to 12.818).
+SPSA under gaussian at severity 0.3: mean absolute RMSE recovery 0.667 (95% CI -0.171 to 1.505); 4/5 seeds improved.
+SPSA under missingness at severity 0.3: mean absolute RMSE recovery 0.338 (95% CI -0.157 to 0.833); 4/5 seeds improved.
+Largest mean one-feature RMSE increase: Relative_Compactness (1.807).
+Interpretation boundary: this simulated, PCA-compressed, statevector study does not establish quantum advantage.

@@ -1,0 +1,74 @@
+{
+  "experiment_mode": "FULL_5_SEEDS",
+  "experiment_seeds": [
+    11,
+    23,
+    42,
+    71,
+    101
+  ],
+  "seed_roles": {
+    "11": {
+      "split": 11,
+      "subset": 111,
+      "initialization": 211,
+      "train_corruption": 311,
+      "test_corruption": 411,
+      "spsa": 511
+    },
+    "23": {
+      "split": 23,
+      "subset": 123,
+      "initialization": 223,
+      "train_corruption": 323,
+      "test_corruption": 423,
+      "spsa": 523
+    },
+    "42": {
+      "split": 42,
+      "subset": 142,
+      "initialization": 242,
+      "train_corruption": 342,
+      "test_corruption": 442,
+      "spsa": 542
+    },
+    "71": {
+      "split": 71,
+      "subset": 171,
+      "initialization": 271,
+      "train_corruption": 371,
+      "test_corruption": 471,
+      "spsa": 571
+    },
+    "101": {
+      "split": 101,
+      "subset": 201,
+      "initialization": 301,
+      "train_corruption": 401,
+      "test_corruption": 501,
+      "spsa": 601
+    }
+  },
+  "replication_unit": "one complete seed-level run",
+  "noise_reference": "seed-specific training split (quantum: training subset)",
+  "noise_std_ddof": 1,
+  "severity_pairing": "common random stream within seed/noise across severities",
+  "uncertainty": "sample SD, SE, and two-sided 95% Student-t CI across seeds",
+  "auc_protocol": "integrate within seed, then summarize across seeds",
+  "selected_ansatz_reps": 2,
+  "selected_qnn_budget": 120,
+  "spsa_iterations": 30,
+  "result_tables_directory": "C:\\Users\\LENOVO\\Documents\\unhinged please\\results_paper_full_5seeds\\tables",
+  "plots_directory": "C:\\Users\\LENOVO\\Documents\\unhinged please\\results_paper_full_5seeds\\plots",
+  "package_versions": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.2.3",
+    "pandas": "2.2.3",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.8.0",
+    "seaborn": "0.13.2",
+    "qiskit": "2.3.0",
+    "qiskit_machine_learning": "0.9.0"
+  }
+}
