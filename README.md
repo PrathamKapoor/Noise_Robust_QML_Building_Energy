@@ -1,8 +1,8 @@
 # Noise-Robust Quantum Machine Learning for Building Energy Performance
 
-A reproducible, five-seed study of how classical regressors and a shallow quantum neural network (QNN) hold up when their inputs are corrupted, using the ENB2012 building energy-efficiency benchmark to predict **Heating Load** and **Cooling Load**.
+A reproducible, five-seed experimental study evaluating the robustness of classical regression models and a shallow Quantum Neural Network (QNN) under controlled input corruption. Using the ENB2012 building energy-efficiency benchmark, the study investigates predictive performance across two target variables: **Heating Load** and **Cooling Load**.
 
-The goal is an honest robustness comparison, not a quantum-advantage claim. Every result is reported per seed and then summarised as mean ± sample SD with a two-sided 95% Student-t confidence interval across seeds.
+**Research Objective:** To conduct a rigorous and statistically grounded comparison of classical and quantum machine learning approaches under varying input-noise conditions, with particular emphasis on predictive stability and degradation in performance. The study does not seek to establish quantum advantage; rather, it aims to provide an objective assessment of the relative robustness of both paradigms. Results are reported individually for each random seed and aggregated using mean ± sample standard deviation, accompanied by two-sided 95% Student's *t*-confidence intervals across the five experimental runs.
 
 ---
 
